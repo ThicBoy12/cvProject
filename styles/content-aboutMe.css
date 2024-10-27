@@ -1,0 +1,79 @@
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.imgDiv{
+  width: 300px;
+  height: 300px;
+  place-self: center;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.header{
+  font-size: 32px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.txtContact{
+  background-color: gray;
+  width: 260px;
+  border-radius: 20px;
+  padding: 20px;
+  place-self: center;
+  transition: padding 0.2s;
+  color: white;
+}
+
+.txt{
+  width: 400px;
+  color: white;
+  background-color: gray;
+  text-align: justify;
+  padding: 20px;
+  border-radius: 20px;
+  place-self: center;
+  transition: padding 0.2s;
+}
+
+.txt:hover, .txtContact:hover{
+  padding: 24px;
+  cursor: pointer;
+}
+
+.about-me, .contact{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.special{
+  transition: margin-left 0.2s;
+}
+
+.special:hover{
+  margin-left: 6px;
+}
+
+.color{
+  color: lightgray;
+  margin-left: 6px;
+}
+
+.topSpacing{
+  margin-top: 42px;
+}
+
+
